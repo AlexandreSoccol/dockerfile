@@ -5,7 +5,9 @@ RUN yum install -y nano net-tools
 RUN yum install -y httpd
 
 RUN yum install -y php
-ADD phpinfo.php /opt/phpinfo.php
+
+ADD phpinfo.php /var/www/html/phpinfo.php
+
 
 
 
