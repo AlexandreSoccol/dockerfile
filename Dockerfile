@@ -11,4 +11,7 @@ EXPOSE 80
 
 CMD  ["/opt/run-httpd.sh"]
 
+RUN yum install -y php
+
+
 
