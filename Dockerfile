@@ -8,9 +8,6 @@ RUN yum install -y php
 
 ADD phpinfo.php /var/www/html/phpinfo.php
 
-
-
-
 ADD run-httpd.sh /opt/run-httpd.sh
 RUN chmod +x /opt/run-httpd.sh
 
